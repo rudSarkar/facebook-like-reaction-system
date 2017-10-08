@@ -1,5 +1,7 @@
 # facebook-like-reaction-system
 
+![Facebook Like Reaction](https://raw.githubusercontent.com/rudSarkar/facebook-like-reaction-system/master/reactions.jpeg "Facebook Like Reaction")
+
 ### Creating the structure
 
 ```html
