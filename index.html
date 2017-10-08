@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Facebook Like Reaction System</title>
+		<meta name="description" content="Facebook Like Reaction System" />
+		<meta name="author" content="Arkaprava Majumder" />
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!-- Css for reaction system -->
+		<link rel="stylesheet" type="text/css" href="css/reaction.css" />
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<!-- jQuery for Reaction system -->
+		<script type="text/javascript" src="js/reaction.js"></script>
+    </head>
+    <body>
+        <div class="container">
+			<div class="header">
+				<h1>Facebook Like Reaction System</h1>	
+			</div>
+			<div class="main">
+				<!-- Reaction system start -->
+				<div class="facebook-reaction"><!-- container div for reaction system -->
+					<span class="like-btn"> <!-- Default like button -->
+						<span class="like-btn-emo like-btn-default"></span> <!-- Default like button emotion-->
+						<span class="like-btn-text">Like</span> <!-- Default like button text,(Like, wow, sad..) default:Like  -->
+						  <ul class="reactions-box"> <!-- Reaction buttons container-->
+								<li class="reaction reaction-like" data-reaction="Like"></li>
+								<li class="reaction reaction-love" data-reaction="Love"></li>
+								<li class="reaction reaction-haha" data-reaction="HaHa"></li>
+								<li class="reaction reaction-wow" data-reaction="Wow"></li>
+								<li class="reaction reaction-sad" data-reaction="Sad"></li>
+								<li class="reaction reaction-angry" data-reaction="Angry"></li>
+						  </ul>
+					</span>
+					<div class="like-stat"> <!-- Like statistic container-->
+						<span class="like-emo"> <!-- like emotions container -->
+							<span class="like-btn-like"></span> <!-- given emotions like, wow, sad (default:Like) -->
+						</span>
+						<span class="like-details">Rudra Sarkar and 1k others</span>
+					</div>
+				 </div>
+				<!-- Reaction system end -->
+			</div>
+    </body>
+</html>
