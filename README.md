@@ -130,4 +130,4 @@ $(".like-btn-text").on("click",function(){ // undo like click
 });
 ```
 
-When you’ll implement this into a live project there should be some ajax call on click or undo event. Check the demo, if you like, comment below your words. All images/sprite has been downloaded from facebook.
+When you’ll implement this into a live project there should be some ajax call on click or undo event.
